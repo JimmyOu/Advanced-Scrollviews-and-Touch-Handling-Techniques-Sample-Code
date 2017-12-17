@@ -86,6 +86,11 @@
             
             [self.view addSubview:dotView];
             
+            /*
+            _scrollView.panGestureRecognizer.enabled = NO;
+            _scrollView.panGestureRecognizer.enabled = YES;
+             */
+            
             [UIView animateWithDuration:0.2 animations:^{
                
                 dotView.transform = CGAffineTransformMakeScale(1.3, 1.3);
